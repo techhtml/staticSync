@@ -1,0 +1,19 @@
+{
+  "name": "staticSync",
+  "version": "0.0.1",
+  "description": "create static server and open major browsers",
+  "main": "index.js",
+  "author": "techhtml",
+  "license": "MIT",
+  "bin": {
+    "staticSync": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techhtml/sync-open.git"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "sync-open": "^0.0.1"
+  }
+}
